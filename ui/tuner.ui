@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tuner</class>
+ <widget class="QWidget" name="Tuner">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>849</width>
+    <height>643</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="tunerLO">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>711</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>LO</string>
+   </property>
+   <widget class="QLineEdit" name="loDiv">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>24</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>23</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>div</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="loInfo">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>20</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loSet">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>112</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loGet">
+    <property name="geometry">
+     <rect>
+      <x>534</x>
+      <y>111</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>20</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="loN">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>20</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tunerR0">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>20</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tunerR1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>50</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tunerR2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>80</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>592</x>
+      <y>23</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>R0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>593</x>
+      <y>53</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>R1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>593</x>
+      <y>84</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>R2</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="tunerPA">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>279</y>
+     <width>351</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>PA</string>
+   </property>
+   <widget class="QPushButton" name="paSet">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="paGet">
+    <property name="geometry">
+     <rect>
+      <x>271</x>
+      <y>47</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="paInfo">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>13</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="paRFVGA">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>75</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>17</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Info</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>79</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RFVGA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>51</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PA1</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="paPA1">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>46</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="tunerLNA">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>279</y>
+     <width>341</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>LNA</string>
+   </property>
+   <widget class="QComboBox" name="lnaLNA2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lnaInfo">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>15</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lnaSet">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>82</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>15</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LNA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>84</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LNA2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lnaGet">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>49</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="lnaLNA1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>48</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>53</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LNA1</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="tunerReg">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>711</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Tuner Register</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>561</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>LO Freq</string>
+   </property>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>25</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LO</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="loStartEn">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>20</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="loEndEn">
+    <property name="geometry">
+     <rect>
+      <x>288</x>
+      <y>20</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>end</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="loFreq">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="loEnd">
+    <property name="geometry">
+     <rect>
+      <x>338</x>
+      <y>19</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loSearch">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>18</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="loStart">
+    <property name="geometry">
+     <rect>
+      <x>203</x>
+      <y>20</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

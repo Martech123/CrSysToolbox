@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EocFirmware</class>
+ <widget class="QWidget" name="EocFirmware">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>698</width>
+    <height>343</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="labelLoad">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>56</y>
+     <width>58</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load Path</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="eocfwCfgClt100MEn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>clt_default_100M</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSave">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>86</y>
+     <width>58</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save Path</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eocfwSave">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>76</y>
+     <width>79</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eocfwLoadChoose">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>46</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>choose</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="eocfwLoadPath">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>46</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="eocfwSavePath">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>76</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eocfwSaveChoose">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>76</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>choose</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eocfwLoad">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>46</y>
+     <width>79</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="eocfwFreq" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>681</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="eocfwType">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>fw type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelLoad_2">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>15</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>type</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
